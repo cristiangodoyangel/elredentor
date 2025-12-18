@@ -1,2 +1,31 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --font-display: "Outfit";
+}
+
+:root {
+  --color-primary: #900a0a;
+  --color-secondary: #efe1cc;
+  --color-text-main: #1f2937;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Outfit', system-ui, sans-serif;
+  color: var(--color-text-main);
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
