@@ -3,14 +3,18 @@
 ---
 
 <div
-    class="navbar bg-[#efe1cc] backdrop-blur-md fixed top-0 w-full h-25 z-50 border-b border-base-200 px-16"
+    class="navbar bg-[#efe1cc] backdrop-blur-md fixed top-0 w-full h-25 z-50 border-b border-base-200 px-4 lg:px-16"
 >
     <div class="navbar-start">
         <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost lg:hidden text-[#900a0a]"
+            >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
+                    class="h-8 w-8"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -23,12 +27,21 @@
             </div>
             <ul
                 tabindex="0"
-                class="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 gap-2 text-red-600"
+                class="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow-xl bg-white rounded-box w-52 gap-2 text-[#900a0a] border border-[#efe1cc]"
             >
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#niveles">Niveles</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio" class="hover:bg-[#efe1cc]">Inicio</a></li>
+                <li>
+                    <a href="#nosotros" class="hover:bg-[#efe1cc]">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#niveles" class="hover:bg-[#efe1cc]">Niveles</a>
+                </li>
+                <li>
+                    <a href="#galeria" class="hover:bg-[#efe1cc]">Galería</a>
+                </li>
+                <li>
+                    <a href="#contacto" class="hover:bg-[#efe1cc]">Contacto</a>
+                </li>
             </ul>
         </div>
         <a
